@@ -1,0 +1,208 @@
+            @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                Font-size: 15px;
+                font-family: 'Spartan', sans-serif;
+                background-image: url(./images/bg-pattern-top-desktop.svg);
+            }
+            
+            section {
+                width: 80%;
+                margin: 0 auto;
+                background-image: url(./images/bg-pattern-bottom-desktop.svg);
+            }
+            
+            .top {
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                margin-top: 50px;
+                flex-wrap: wrap;
+            }
+            
+            .info h1 {
+                color: hsl(300, 43%, 22%);
+                padding: 8px 0;
+                font-size: 40px;
+            }
+            
+            .info {
+                display: inline-block;
+                width: 500px;
+            }
+            
+            .info p {
+                color: hsl(303, 10%, 53%);
+                padding: 0 8px;
+                font-weight: 403;
+            }
+            
+            .review {
+                padding: 5px 10px;
+            }
+            
+            .review i {
+                padding: 2px;
+                color: orange;
+            }
+            
+            .review p {
+                color: hsl(300, 43%, 22%);
+                display: inline-block;
+                margin-left: 16px;
+                font-weight: 501;
+            }
+            
+            .u1 {
+                display: inline-block;
+                background-color: hsl(300, 24%, 96%);
+                padding: 8px 8px;
+                border-radius: 10px;
+                margin: 10px 10px;
+                width: 100%;
+            }
+            
+            .cards {
+                display: inline-block;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                padding-top: 60px;
+            }
+            
+            .card {
+                background-color: hsl(300, 43%, 22%);
+                margin: 10px 20px;
+                padding: 14px 19px;
+                border-radius: 18px;
+            }
+            
+            .card img {
+                display: inline-block;
+                border-radius: 50%;
+                width: 15%;
+                position: relative;
+                top: 21px;
+            }
+            
+            .card h3,
+            p {
+                display: inline-block;
+                color: white;
+                margin: 10px 5px;
+            }
+            
+            .card h3 {
+                padding: 0 15px;
+            }
+            
+            .card h4 {
+                color: hsl(333, 80%, 67%);
+                font-size: 12px;
+                position: relative;
+                right: -76px;
+                top: -8px;
+            }
+            
+            .card p {
+                font-size: 12px;
+                margin: 10px 10px;
+                line-height: 20px;
+                font-weight: 414;
+            }
+            
+            .card2 {
+                margin-top: 15px;
+                position: relative;
+            }
+            
+            .rew1 {
+                margin-right: 50px;
+            }
+            
+            .card1 {
+                width: 300px;
+                height: 218px;
+            }
+            
+            .card2 {
+                margin-top: 22px;
+                height: 218px;
+                width: 300px
+            }
+            
+            .card3 {
+                width: 300px;
+                height: 218px;
+                margin-top: 37px;
+            }
+            
+            .r2 {
+                margin-left: 31px;
+            }
+            
+            .r3 {
+                margin-left: 51px;
+            }
+            
+            @media screen and (max-width:480px) {
+                .info {
+                    display: inline-block;
+                    width: 400px;
+                }
+                .info h1 {
+                    font-size: 30px;
+                }
+                .info p {
+                    font-size: 12px;
+                    font-weight: 403;
+                }
+                .review p {
+                    display: inline-block;
+                    margin-left: 10px;
+                    font-weight: 501;
+                    font-size: 13px;
+                }
+                body {
+                    Font-size: 13px;
+                    background-image: url(./images/bg-pattern-top-mobile.svg);
+                    background-repeat: no-repeat;
+                }
+                section {
+                    background-repeat: no-repeat;
+                }
+                html {
+                    background-image: url(./images/bg-pattern-bottom-mobile.svg);
+                    background-repeat: no-repeat;
+                    position: relative;
+                    bottom: 0;
+                    right: 0;
+                }
+                .u1 img {
+                    width: 11px;
+                }
+                .attribution {
+                    font-size: 10px;
+                }
+                .r2 {
+                    margin-left: 0;
+                }
+                .r3 {
+                    margin-left: 0;
+                }
+                .card2 {
+                    margin-top: 0;
+                    height: 218px;
+                    width: 300px
+                }
+                .card3 {
+                    width: 300px;
+                    height: 100%;
+                    margin-top: 0;
+                }
+            }
